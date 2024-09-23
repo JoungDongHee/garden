@@ -1,7 +1,7 @@
 ---
 longform:
   format: scenes
-  title: Doing it in publish
+  title: Doing it in Publish
   workflow: Default Workflow
   sceneFolder: /
   scenes:
