@@ -1,11 +1,9 @@
 ---
 longform:
   format: scenes
-  title: Doing it in Publish
+  title: Resource
   workflow: Default Workflow
   sceneFolder: /
-  scenes:
-    - Introduction
-  sceneTemplate: templates/chapter.md
+  scenes: []
   ignoredFiles: []
 ---
