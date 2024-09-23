@@ -1,0 +1,1 @@
+v-slot:header 는 `#header` 와 같이 축약이 가능하다.
