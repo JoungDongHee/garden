@@ -1,4 +1,0 @@
----
-share: true
-title: KIMBOB의 개발 블로그에 오신것을 환영합니다!
----
