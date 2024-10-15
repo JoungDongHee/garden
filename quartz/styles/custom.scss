@@ -6,15 +6,11 @@
     max-width: unset; // remove space on the sides, stretches content
   }
 
-  
-  article.popover-hint img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  article.popover-hint svg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  article.popover-hint {
+    img,
+    svg {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
