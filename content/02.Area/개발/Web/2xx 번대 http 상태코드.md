@@ -13,6 +13,8 @@ share: true
 
 ## 200 : OK
 
+^3cd368
+
 * 요청 성공 
 
 다음과 같이 `/subscribe` API 에 POST 요청을 보낼 경우 정상 처리될 경우 `Reponse` 에는 200 이라는 HTTP 상태 코드 와 함께 부가적인 정보를 전달해준다.
@@ -45,6 +47,8 @@ Content-Type: application/json
 
 
 ## 201 : Create
+
+^ee2dda
 
 * 요청이 정상 처리되어 새로운 리소스가 생성됨
 
