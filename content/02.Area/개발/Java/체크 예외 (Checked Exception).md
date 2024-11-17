@@ -14,7 +14,7 @@ share: true
 ## Checked Exception 
 
 Checked Exception은 컴파일 시점에 [예외처리](%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC.md) 를 확인하는 예외로, `Exception` 클래스를 상속받되 `RuntimeException`을 상속하지 않는 예외들을 말합니다.
-
+fasdfa
 정반대로 [언체크 예외(UnChecked Excption)](%EC%96%B8%EC%B2%B4%ED%81%AC%20%EC%98%88%EC%99%B8(UnChecked%20Excption).md) 가 존재한다.
 
 ### 주요 특징
