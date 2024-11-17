@@ -5,6 +5,7 @@ tags:
   - SpringFramwork
   - Ioc
   - ioC
+  - DI
 author: Joung Dong Hee
 share: true
 ---
@@ -33,7 +34,7 @@ public static void main(String[] args) {
 
 ## IoC 컨테이너 의 역할
 
-IoC 의 컨테이너는 객체의 생명주기 , 설정 관리 , Bean 의 범위 설정 등을 담당하며 이렇게 `IoC 컨테이너` 에서 관리 하는 객체를 `Bean` 라고 한다.  
+IoC 의 컨테이너는 객체의 생명주기 , 설정 관리 , Bean 의 범위 설정 등을 담당하며 이렇게 `IoC 컨테이너` 에서 관리 하는 객체를 [Spring Bean](Spring%20Bean.md) 라고 한다.  
 
 Spring 에서는 다양하게 `IoC 컨테이너` 에 `Bean` 을 등록할수 있으며 `@Component` , `@Autowired` 등과 같은 Anotaion 을 사용하여 Bean 객체로 등록이 가능하다.
 
