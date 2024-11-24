@@ -10,6 +10,8 @@ share: true
 
 # DTO (**Data Transfer Object**)
 
+^e94535
+
 DTO는 **Data Transfer Object**의 약자로, **데이터 전송**을 위한 객체입니다. 주로 **계층 간**의 데이터 이동을 위해 사용됩니다.
 
 계층 간 이동은 주로 **Controller → Service → DAO → DB** 순서로 이루어지며, 각 계층 간에 데이터를 주고받을 때 DTO가 사용됩니다.
