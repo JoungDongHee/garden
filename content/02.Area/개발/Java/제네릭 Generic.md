@@ -17,6 +17,7 @@ share: true
 
 # 등장 배경
 
+
 ## 1. 문제 - 타입 안정성 부족
 
 ^fb870c
@@ -126,7 +127,7 @@ Box<Integer> integerBox = new Box<>();
 - `E` (Element): 컬렉션 요소
 - `K`, `V` (Key, Value): 키-값 쌍
 - `?` (Wildcard): 불특정 타입
-- 이 외에도 S U D 와 같이 자유롭게 사용가능하다.
+- 이 외에도 `S` `U` `D` 와 같이 자유롭게 사용가능하다.
 
 ```java
 class Box<T> {
