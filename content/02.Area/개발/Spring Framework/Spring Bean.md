@@ -2,6 +2,7 @@
 date: 2024 년 11 월 14 일 23 시 11 분
 tags:
   - Dev
+  - Bean
 author: Joung Dong Hee
 share: true
 ---
