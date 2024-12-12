@@ -8,6 +8,7 @@ tags:
   - Pattern
 author: Joung Dong Hee
 share: true
+finish: true
 ---
 
 # 싱글톤 패턴

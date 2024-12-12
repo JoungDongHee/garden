@@ -8,6 +8,7 @@ tags:
   - 외래키
 author: Joung Dong Hee
 share: true
+finish: true
 ---
 
 # 외래키-FK(Foreign Key)
@@ -36,6 +37,8 @@ share: true
 
 
 ### 2. One-to-Many / Many-to-One (1대다 또는 다대1 관계)
+
+^414bc3
 
 한 테이블의 레코드가 다른 테이블의 여러 레코드와 연결되는 관계.  
 예: `Customers`와 `Orders`

@@ -4,8 +4,10 @@ tags:
   - Dev
   - DB
   - ORDERBY
+  - SQL
 author: Joung Dong Hee
 share: true
+finish: true
 ---
 
 # ORDER BY(정렬)

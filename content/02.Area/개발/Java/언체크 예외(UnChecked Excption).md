@@ -7,6 +7,7 @@ tags:
   - 언체크예외
 author: Joung Dong Hee
 share: true
+finish: true
 ---
 # 언체크 예외(UnChecked Excption)
 
