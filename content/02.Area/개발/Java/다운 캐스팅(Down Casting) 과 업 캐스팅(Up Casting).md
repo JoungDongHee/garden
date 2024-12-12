@@ -7,6 +7,7 @@ tags:
   - UpCasting
   - 다형성
 share: true
+finish: true
 ---
 
 자바에서 객체지향 프로그래밍을 이야기할 때 빠질 수 없는 개념 중 하나가 바로 **다형성**입니다. 
