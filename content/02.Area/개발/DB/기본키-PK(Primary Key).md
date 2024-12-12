@@ -8,6 +8,7 @@ tags:
   - 기본키
 author: Joung Dong Hee
 share: true
+finish: 
 ---
 
 # 기본키-PK(Primary Key)
