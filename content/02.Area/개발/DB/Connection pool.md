@@ -6,6 +6,7 @@ tags:
   - Pool
   - DB
 share: true
+finish: true
 ---
 
 [커넥션](DB%20Connection.md#^52338f) 에서 설명 했듯이 커넥션 은 DB 에서 굉장히 중요한 자원 이며 이를 **잘 관리하는 것** 은 어플리케이션 성능 에 굉장히 중요한 역할을 한다. 
