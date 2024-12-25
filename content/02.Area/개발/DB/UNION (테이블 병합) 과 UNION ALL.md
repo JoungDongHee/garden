@@ -6,6 +6,7 @@ tags:
   - UNION
   - UNIONALL
   - 테이블병합
+  - SQL
 author: Joung Dong Hee
 share: true
 ---
