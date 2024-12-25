@@ -18,6 +18,8 @@ share: true
 
 # URL(Uniform-Resource-Locator)
 
+^c13188
+
 인터넷 에서 웹페이지 , 이미지 , 비디오 등 리소스의 위치를 가르키는 문자열을 의미하며 
 브라우저에서는 https://developer.mozilla.org 와 같이 URL 주소를 창에 표시한다. 
 
