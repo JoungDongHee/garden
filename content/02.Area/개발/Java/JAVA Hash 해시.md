@@ -290,9 +290,9 @@ public int hashCode() {
 
 자바에서 hash 는 상당히 많은 곳 에서 활용하여 사용된다. 특히 아래의 컬렉션 프레임 워크 의 핵심 기술이다. 
 
-* [SET](JAVA%20Set.md)
-* [LinkedHashSet](JAVA%20LinkedHashSet.md)
-* [TreeSet](Java%20TreeSet.md)
+* [SET](Set.md)
+* [LinkedHashSet](LinkedHashSet.md)
+* [TreeSet](TreeSet.md)
 
 
 --- 
