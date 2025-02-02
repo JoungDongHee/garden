@@ -24,4 +24,4 @@ share: true
 * [OCP](OCP(Open-Closed%20Principle)%20%EC%9B%90%EC%B9%99.md) : 개방 폐쇄 원칙
 * LSP : 리스코프 치환 원칙
 * ISP : 인터페이스 분리 원칙
-* DIP : 의존 역전 원칙
+* [DIP](DIP(Dependency%20Inversion%20Principle)%20-%20%EC%9D%98%EC%A1%B4%20%EA%B4%80%EA%B3%84%20%EC%97%AD%EC%A0%84%20%EC%9B%90%EC%B9%99.md) : 의존 역전 원칙
