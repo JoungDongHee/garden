@@ -30,13 +30,33 @@ public static void main(String[] args) {
 }  
 ```
 
-하지만 [Spring Framework](Spring%20Framework.md) 에서는 객체의 생성 및 관리하는 `IoC 컨테이너` 가 존재하며 이 컨테이너 내부에서 관리하게 된다.
+
+하지만 SpringFramwork 에서는 이러한 행위를 Spring 프레임 워크 내부에서 진행한다. 마치 [DIP](DIP(Dependency%20Inversion%20Principle)%20-%20%EC%9D%98%EC%A1%B4%20%EA%B4%80%EA%B3%84%20%EC%97%AD%EC%A0%84%20%EC%9B%90%EC%B9%99.md) 에서 설명한 `AppConfig` 클래스 와 같이 말이다.
+
+그리고 `AppConfig` 처럼 객체를 생성하고 관리하면서 의존 관계를 연결해주는 것 을 `IoC컨테이너` 혹은 `DI컨테이너` 라고 한다.
+
+```java
+public class AppConfig {  
+    public OrderService orderService(){  
+        return new OrderServiceImpl(discountPolicy());  
+    }  
+  
+    private DiscountPolicy discountPolicy() {  
+        return new RateDisCountPolicy();  
+    }  
+}
+```
+
+
+
 
 ## IoC 컨테이너 의 역할
 
+^0e3b30
+
 IoC 의 컨테이너는 객체의 생명주기 , 설정 관리 , Bean 의 범위 설정 등을 담당하며 이렇게 `IoC 컨테이너` 에서 관리 하는 객체를 [Spring Bean](Spring%20Bean.md) 라고 한다.  
 
-Spring 에서는 다양하게 `IoC 컨테이너` 에 `Bean` 을 등록할수 있으며 `@Component` , `@Autowired` 등과 같은 Anotaion 을 사용하여 Bean 객체로 등록이 가능하다.
+Spring 에서는 다양하게 `IoC 컨테이너` 에 `Bean` 을 등록할수 있으며 `@Component` , `@Autowired`,`@Bean` 등과 같은 Anotaion 을 사용하여 Bean 객체로 등록이 가능하다.
 
 ```java
 @Component
