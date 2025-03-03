@@ -33,12 +33,14 @@ JOIN 의 종류에는 **INNER JOIN** , **OUTER JOIN** , **CROSS JOIN** , **SELF 
 ### 예시 테이블
 #### 테이블 1: `employees`
 
+
 | employee_id | name    | department_id |
 | ----------- | ------- | ------------- |
 | 1           | Alice   | 101           |
 | 2           | Bob     | 102           |
 | 3           | Charlie | 103           |
 | 4           | David   | 104           |
+
 
 #### 테이블 2: `departments`
 
