@@ -8,7 +8,30 @@ share: true
 
 # HTTP 
 
-Hyper Text Transfer Protocol 의 약자로 클라이언트 와 서버간 메시지를 `주고 받기 위한` **규칙(Protocol)**  이다.
+`Hyper Text Transfer Protocol` 의 약자이다. 
+
+HTTP 통신은 [무상태 프로토콜 (Stateless)](%EB%AC%B4%EC%83%81%ED%83%9C%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C%20(Stateless).md) 의 특성을 가진 통신 `규칙(Protocol)` 중 하나 이다.
+
+
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant S as Server
+    C->>S: HTTP Request
+    S-->>C: HTTP Response
+```
+
+`상태를 저장하지 않는 특성` 으로 인해 각 요청(Request) 는 각각 독립적으로 처리되며 동작한다. 
+
+
+> [!note] INFO
+> HTTP 에서 의 상태 는 주로 `세션 정보` 혹은 `연결의 맥락` 을 의미 한다.
+> 예를들어 고객이 음식을 주문할 때마다 원하는 음식, 조리 방법, 추가 요청 등을 모두 다시 전달해야 합니다. 
+> 만약 고객이 특별한 요구사항(예: "전에 맵게 해달라"는 요청)을 했다면, 그 정보는 주문할 때마다 새로 이야기해야 합니다.
+> 
+> 이 처럼 이전에 대한 정보 를 여기서 상태라고 얘기한다.
+
+
 
 ## HTTP 역사
 
